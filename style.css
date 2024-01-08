@@ -9,31 +9,94 @@ margin-top: 30px;
 padding: 100mm; 
 z-index: 0;
 position: relative;
+opacity: .84;
 }
 .background-content{
     position: absolute;
     text-align: center;
-    top: 0;
-    bottom: 2px;
+    top: 25%;
+    bottom: 0;
     z-index: -1;
-    opacity: 
 }
 .background-heading{
-    color: #FFF;
+color: #FFF;
 text-align: center;
 font-family: Merriweather;
 font-size: 32px;
-font-style: normal;
 font-weight: 400;
-line-height: normal;
 }
 .background-subtitle{
-    color: #FFF;
+color: #FFF;
 text-align: center;
 font-family: Merriweather;
 font-size: 72px;
-font-style: normal;
 font-weight: 900;
 line-height: 95px; 
 width: 632px;
+}
+.categories{
+text-align: center;    
+ }
+.categorie-title{
+color: #F00;
+font-family: 'Inter', sans-serif;
+font-size: 88px;
+font-weight: 700;
+}
+.categorie-subtitle{
+color: #F00;
+font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-weight: 500;
+}
+.categorie-item{
+color: #070211;
+font-family: 'Inter', sans-serif;
+font-size: 48px;
+font-weight: 700;
+}
+.greetings-image{
+    background-image: url('/resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1320px;
+    height: 600px;
+    margin-top: 120px;
+}
+.greetings-feature{
+    display: flex;
+    justify-content: space-between;
+}
+.greetings-content{
+    padding: 126px 94px 142px 126px;
+}
+.greetings-content h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+}
+.greetings-content p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-top: 24px;
+}
+.greetings-content h3{
+    color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+margin-left: 32px;
+margin-top: 48px;
+}
+.greetings-feature img{
+width: 319.83px;
+height: 464.662px;
+padding:68px 138px 67px 0 ;
 }
