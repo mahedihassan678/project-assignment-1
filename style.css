@@ -262,7 +262,8 @@ color: rgba(7, 2, 17, 0.60);
 font-family: 'Inter', sans-serif;
 font-size: 20px;
 font-weight: 400;
-line-height: 32px; /* 160% */
+line-height: 32px; 
+margin-bottom: 48px;
 }
 .google-form{
     width: 1320px;
@@ -318,6 +319,7 @@ margin-left:-135px
     width: 1600px;
 height: 609px;
 background: #070211;
+margin-top: 120px;
 }
 .social-border{
     padding: 60px 140px;
