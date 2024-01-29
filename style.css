@@ -2,7 +2,7 @@
     margin: 0 auto;
 }
 .background-image{
-background-image: url('/resources/Banner\ Image.png');
+background-image: url('./resources/Banner\ Image.png');
 background-repeat: no-repeat;
 margin-left: 100px;
 margin-top: 30px;
@@ -56,7 +56,7 @@ font-size: 48px;
 font-weight: 700;
 }
 .greetings-image{
-    background-image: url('/resources/Vectorrr.png');
+    background-image: url('./resources/Vectorrr.png');
     background-repeat: no-repeat;
     background-position: center;
     width: 1320px;
@@ -225,7 +225,7 @@ line-height: 32px;
 width: 1068px;
 }
 .sidebar-image{
-    background-image: url('/resources/Rectangle\ 1.png');
+    background-image: url('./resources/Rectangle\ 1.png');
     background-repeat: no-repeat;
     background-position: bottom right ;
     margin-left: 753px;
